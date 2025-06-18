@@ -1,0 +1,56 @@
+/* Custom Styles for E-Farm Shop */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    border-bottom: 2px solid #ddd;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1920x800') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.testimonials blockquote {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-left: 5px solid #fff;
+    font-style: italic;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
